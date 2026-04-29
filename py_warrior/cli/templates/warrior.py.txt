@@ -1,0 +1,5 @@
+def turn(warrior):
+    # The game calls this function once per turn.
+    # Use warrior abilities to navigate the dungeon.
+    # Available this level: warrior.walk()
+    warrior.walk()
