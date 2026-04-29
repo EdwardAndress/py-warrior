@@ -1,0 +1,17 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "py-warrior"
+version = "0.1.0"
+description = "A Python dungeon crawler teaching game inspired by Ruby Warrior"
+requires-python = ">=3.10"
+dependencies = [
+    "pygame>=2.0",
+    "pyyaml>=6.0",
+    "click>=8.0",
+]
+
+[project.scripts]
+py-warrior = "py_warrior.cli.main:cli"
